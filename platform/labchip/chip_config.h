@@ -44,7 +44,9 @@ extern "C" {
 #define PLIC_CC                 ((PLIC_ContextControl_Type *)(PLIC_BASE + 0x00200000U))
 #define UART0                   ((UART_Type *)UART0_BASE)
 
-
+/* Peripheral Pointer Definition */
+// #define __heap_size              128M
+// #define __stack_size             512M
 
 #ifdef __cplusplus
 }
