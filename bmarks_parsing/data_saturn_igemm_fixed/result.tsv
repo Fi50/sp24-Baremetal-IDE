@@ -1,0 +1,313 @@
+Suite Name	Test Name	Test ID	Voltage	Frequency	Status	Context	Host Payload	Compare Check Data
+saturn_bmarks_shmoo	vec_igemm	1	0.55	50000000	PASS	{'seed': b'\xab\xd4\xe9\x9e', 'chip_freq': 50000000}	abd4e99e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.55	100000000	PASS	{'seed': b'\x8f\x9eY@', 'chip_freq': 100000000}	8f9e5940	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.55	150000000	PASS	{'seed': b'\xe4z\x0b\xfa', 'chip_freq': 150000000}	e47a0bfa	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.55	200000000	FAIL_NO_BEL	{'seed': b'\xcb\xc0\x0c\xc2'}	cbc00cc2	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	350000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	400000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	450000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.55	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	50000000	PASS	{'seed': b'\xa5\xf8\\\x82', 'chip_freq': 50000000}	a5f85c82	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	0.60	100000000	PASS	{'seed': b'\x87\x00.\xa3', 'chip_freq': 100000000}	87002ea3	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.60	150000000	PASS	{'seed': b'\x86\xf8k\xdb', 'chip_freq': 150000000}	86f86bdb	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.60	200000000	PASS	{'seed': b'\xcd\xff\xaaT', 'chip_freq': 200000000}	cdffaa54	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.60	250000000	PASS	{'seed': b'\x0e\xc9B#', 'chip_freq': 250000000}	0ec94223	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.60	300000000	FAIL_NO_ETB	{'seed': b'\xee\x1e\xd3\xca'}	ee1ed3ca	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	350000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	400000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	450000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.60	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	50000000	PASS	{'seed': b'\x04\x89\x16\xe5', 'chip_freq': 50000000}	048916e5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	100000000	PASS	{'seed': b"g'\t\xc7", 'chip_freq': 100000000}	672709c7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	150000000	PASS	{'seed': b'w/\xda\xc1', 'chip_freq': 150000000}	772fdac1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	200000000	PASS	{'seed': b'?\xeb\xe1\xf1', 'chip_freq': 200000000}	3febe1f1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	250000000	PASS	{'seed': b']\x02\xa5b', 'chip_freq': 250000000}	5d02a562	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	300000000	PASS	{'seed': b'\xb5\n(8', 'chip_freq': 300000000}	b50a2838	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	350000000	PASS	{'seed': b'\x1b\xcam\x83', 'chip_freq': 350000000}	1bca6d83	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	400000000	PASS	{'seed': b'\xc3~\x03\xdf', 'chip_freq': 400000000}	c37e03df	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.65	450000000	FAIL_NO_BEL	{'seed': b'\x05\xac\x83\xe8'}	05ac83e8	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.65	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	50000000	PASS	{'seed': b'\x89%yM', 'chip_freq': 50000000}	8925794d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	100000000	PASS	{'seed': b'bg\xbeb', 'chip_freq': 100000000}	6267be62	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	150000000	PASS	{'seed': b'\xd0\xca\x800', 'chip_freq': 150000000}	d0ca8030	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	200000000	PASS	{'seed': b',&\xa8.', 'chip_freq': 200000000}	2c26a82e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	250000000	PASS	{'seed': b'\x8a\x8bnM', 'chip_freq': 250000000}	8a8b6e4d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	300000000	PASS	{'seed': b'\x15\xcb1\xc5', 'chip_freq': 300000000}	15cb31c5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	350000000	PASS	{'seed': b'\xb7\xff\xe0\xea', 'chip_freq': 350000000}	b7ffe0ea	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	400000000	PASS	{'seed': b'\x9b\xeb\xc84', 'chip_freq': 400000000}	9bebc834	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	450000000	PASS	{'seed': b'\x05\t\x8bW', 'chip_freq': 450000000}	05098b57	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	500000000	PASS	{'seed': b'\xc7r\xf6\xf5', 'chip_freq': 500000000}	c772f6f5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.70	550000000	FAIL_NO_ETB	{'seed': b'e9\xae\x81'}	6539ae81	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.70	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	50000000	PASS	{'seed': b'7\xbe\xa1\xe7', 'chip_freq': 50000000}	37bea1e7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	100000000	PASS	{'seed': b'\xc0\x15q\xaa', 'chip_freq': 100000000}	c01571aa	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	150000000	PASS	{'seed': b'\xd3X{\x97', 'chip_freq': 150000000}	d3587b97	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	200000000	PASS	{'seed': b'\xc4\x98\xc5\xba', 'chip_freq': 200000000}	c498c5ba	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	250000000	PASS	{'seed': b'H7\xc0]', 'chip_freq': 250000000}	4837c05d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	300000000	PASS	{'seed': b'A\rt\xff', 'chip_freq': 300000000}	410d74ff	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	350000000	PASS	{'seed': b'\xbd\x1c\xa6\x9f', 'chip_freq': 350000000}	bd1ca69f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	400000000	PASS	{'seed': b'\xc3*L\xb4', 'chip_freq': 400000000}	c32a4cb4	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	450000000	PASS	{'seed': b'<\xf3p\x97', 'chip_freq': 450000000}	3cf37097	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	500000000	PASS	{'seed': b'\x1e\x16\x0b\x06', 'chip_freq': 500000000}	1e160b06	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	550000000	PASS	{'seed': b'\xec\xc2*j', 'chip_freq': 550000000}	ecc22a6a	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	600000000	PASS	{'seed': b'\xa7\xf9\x93\xda', 'chip_freq': 600000000}	a7f993da	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	650000000	PASS	{'seed': b'N\x13\xc7;', 'chip_freq': 650000000}	4e13c73b	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.75	700000000	FAIL_NO_BEL	{'seed': b'\xab\xd7:\x81'}	abd73a81	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.75	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	50000000	PASS	{'seed': b'bn\xae\x82', 'chip_freq': 50000000}	626eae82	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	100000000	PASS	{'seed': b'\xbd\xac\r\xd1', 'chip_freq': 100000000}	bdac0dd1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	150000000	PASS	{'seed': b'y\xee\r\x9e', 'chip_freq': 150000000}	79ee0d9e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	200000000	PASS	{'seed': b'\xc8H\xa9-', 'chip_freq': 200000000}	c848a92d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	250000000	PASS	{'seed': b'<\xa8l\xd6', 'chip_freq': 250000000}	3ca86cd6	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	300000000	PASS	{'seed': b'E\xc7Eb', 'chip_freq': 300000000}	45c74562	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	350000000	PASS	{'seed': b'\xcc!\xa7\xa1', 'chip_freq': 350000000}	cc21a7a1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	400000000	PASS	{'seed': b'\x95u!e', 'chip_freq': 400000000}	95752165	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	450000000	PASS	{'seed': b'q\x19\xbc\xed', 'chip_freq': 450000000}	7119bced	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	500000000	PASS	{'seed': b'\xdf\xfe\xee\xc9', 'chip_freq': 500000000}	dffeeec9	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	550000000	PASS	{'seed': b'\x86\x01\xc3\xca', 'chip_freq': 550000000}	8601c3ca	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	600000000	PASS	{'seed': b'\x06\xa7Q\x9c', 'chip_freq': 600000000}	06a7519c	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	650000000	PASS	{'seed': b'\xab\xcd\xf2\xdd', 'chip_freq': 650000000}	abcdf2dd	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	700000000	PASS	{'seed': b'\x16uE\xbe', 'chip_freq': 700000000}	167545be	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	750000000	PASS	{'seed': b'b\xdc\xd8Q', 'chip_freq': 750000000}	62dcd851	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.80	800000000	FAIL_NO_ETB	{'seed': b'\x9c\x9ej\xc4'}	9c9e6ac4	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.80	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	50000000	PASS	{'seed': b'}\x18b\xca', 'chip_freq': 50000000}	7d1862ca	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	100000000	PASS	{'seed': b'L\xf4\x13\x96', 'chip_freq': 100000000}	4cf41396	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	150000000	PASS	{'seed': b'W\xbb\xcb\x85', 'chip_freq': 150000000}	57bbcb85	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	200000000	PASS	{'seed': b'\x8f\xbb\x82N', 'chip_freq': 200000000}	8fbb824e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	250000000	PASS	{'seed': b'\xd2m\xc3\xe7', 'chip_freq': 250000000}	d26dc3e7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	300000000	PASS	{'seed': b'\x00\x08F\xba', 'chip_freq': 300000000}	000846ba	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	350000000	PASS	{'seed': b'\x93\xed\xff5', 'chip_freq': 350000000}	93edff35	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	400000000	PASS	{'seed': b'\x88@\xe3\xc5', 'chip_freq': 400000000}	8840e3c5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	450000000	PASS	{'seed': b'\xd2"\x93\x08', 'chip_freq': 450000000}	d2229308	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	500000000	PASS	{'seed': b'\x1e\xff\x00\xe8', 'chip_freq': 500000000}	1eff00e8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	550000000	PASS	{'seed': b'\xd5\xfa\xe3\xba', 'chip_freq': 550000000}	d5fae3ba	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	600000000	PASS	{'seed': b'O\xd5\xdd\x7f', 'chip_freq': 600000000}	4fd5dd7f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	650000000	PASS	{'seed': b'U\xc0\xae?', 'chip_freq': 650000000}	55c0ae3f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	700000000	PASS	{'seed': b'\xce\xfc\x88\xd5', 'chip_freq': 700000000}	cefc88d5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	750000000	PASS	{'seed': b'\xef#/"', 'chip_freq': 750000000}	ef232f22	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	800000000	PASS	{'seed': b'\xc5\x15l\xd7', 'chip_freq': 800000000}	c5156cd7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	850000000	PASS	{'seed': b'\xfaV\x03M', 'chip_freq': 850000000}	fa56034d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	900000000	PASS	{'seed': b'\xd9\xdbZw', 'chip_freq': 900000000}	d9db5a77	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.85	950000000	FAIL_NO_BEL	{'seed': b'$\xad\x95Y'}	24ad9559	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.85	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	50000000	PASS	{'seed': b'\nu\xbbq', 'chip_freq': 50000000}	0a75bb71	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	100000000	PASS	{'seed': b'\xd4^\xe0\xd3', 'chip_freq': 100000000}	d45ee0d3	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	150000000	PASS	{'seed': b'\xb9\xe3_\x9a', 'chip_freq': 150000000}	b9e35f9a	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	200000000	PASS	{'seed': b'\xbd\xff\xc0]', 'chip_freq': 200000000}	bdffc05d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	250000000	PASS	{'seed': b'\xe69\x1c\x02', 'chip_freq': 250000000}	e6391c02	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	300000000	PASS	{'seed': b'\xfcw\xf9\xdb', 'chip_freq': 300000000}	fc77f9db	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	350000000	PASS	{'seed': b'Yq=\xa2', 'chip_freq': 350000000}	59713da2	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	400000000	PASS	{'seed': b'\xe0;\t\xb8', 'chip_freq': 400000000}	e03b09b8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	450000000	PASS	{'seed': b'\xc1\xff\xef\xa4', 'chip_freq': 450000000}	c1ffefa4	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	500000000	PASS	{'seed': b'\x9b6\x9b~', 'chip_freq': 500000000}	9b369b7e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	550000000	PASS	{'seed': b'Qf\x91N', 'chip_freq': 550000000}	5166914e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	600000000	PASS	{'seed': b'|\xc5\xcda', 'chip_freq': 600000000}	7cc5cd61	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	650000000	PASS	{'seed': b'.\xfb"l', 'chip_freq': 650000000}	2efb226c	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	700000000	PASS	{'seed': b'\xb1\xc9"\xc5', 'chip_freq': 700000000}	b1c922c5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	750000000	PASS	{'seed': b'R\xa5t{', 'chip_freq': 750000000}	52a5747b	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	800000000	PASS	{'seed': b'T\xe56\xb8', 'chip_freq': 800000000}	54e536b8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	850000000	PASS	{'seed': b'\rI6\x9e', 'chip_freq': 850000000}	0d49369e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	900000000	PASS	{'seed': b'\x98\x8d\x00\x8a', 'chip_freq': 900000000}	988d008a	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	950000000	PASS	{'seed': b'\x83\x8d\x88.', 'chip_freq': 950000000}	838d882e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1000000000	PASS	{'seed': b'i\x0e\x1c\xb6', 'chip_freq': 1000000000}	690e1cb6	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 682587, 'vector_perf': 0.7680896520614624}
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1050000000	FAIL_NO_BEL	{'seed': b'.\x06cz'}	2e06637a	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.90	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.95	50000000	PASS	{'seed': b'\xe6x\x97\xcd', 'chip_freq': 50000000}	e67897cd	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	100000000	PASS	{'seed': b'l\x15\xbc ', 'chip_freq': 100000000}	6c15bc20	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	150000000	PASS	{'seed': b'\xa2\x9f3\x81', 'chip_freq': 150000000}	a29f3381	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	200000000	PASS	{'seed': b'!\xa2jp', 'chip_freq': 200000000}	21a26a70	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	250000000	PASS	{'seed': b'\x95\x99\xd7\x18', 'chip_freq': 250000000}	9599d718	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	300000000	PASS	{'seed': b'\xa2\x86\x8f\x0e', 'chip_freq': 300000000}	a2868f0e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	350000000	PASS	{'seed': b'\xeb\x15\xf9\x93', 'chip_freq': 350000000}	eb15f993	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	400000000	PASS	{'seed': b'\xe7\x90\x9a\xbf', 'chip_freq': 400000000}	e7909abf	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	450000000	PASS	{'seed': b'm\xfb\x8b\xcf', 'chip_freq': 450000000}	6dfb8bcf	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	500000000	PASS	{'seed': b'z\xceI5', 'chip_freq': 500000000}	7ace4935	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	550000000	PASS	{'seed': b'\xe7\x8a\xbc\xda', 'chip_freq': 550000000}	e78abcda	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	600000000	PASS	{'seed': b'\x1d\x1e\xa9w', 'chip_freq': 600000000}	1d1ea977	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	650000000	PASS	{'seed': b'(W\xd1E', 'chip_freq': 650000000}	2857d145	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	700000000	PASS	{'seed': b'\x02\xf1\x85t', 'chip_freq': 700000000}	02f18574	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	750000000	PASS	{'seed': b'|^Y\xe4', 'chip_freq': 750000000}	7c5e59e4	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	800000000	PASS	{'seed': b'\nkK\x86', 'chip_freq': 800000000}	0a6b4b86	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	850000000	PASS	{'seed': b'\xfb:\xe8@', 'chip_freq': 850000000}	fb3ae840	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	900000000	PASS	{'seed': b'r\xb8\xe8\xbb', 'chip_freq': 900000000}	72b8e8bb	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	950000000	PASS	{'seed': b'\x9f\xfe\x7f\xa8', 'chip_freq': 950000000}	9ffe7fa8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1000000000	PASS	{'seed': b'\xe3?\x0c\xfe', 'chip_freq': 1000000000}	e33f0cfe	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1050000000	PASS	{'seed': b'\x0e\x83\x97G', 'chip_freq': 1050000000}	0e839747	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 682587, 'vector_perf': 0.7680896520614624}
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1100000000	FAIL_NO_ETB	{'seed': b'\x07\x88>\xda'}	07883eda	None
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	0.95	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	1.00	50000000	PASS	{'seed': b'\x92\xfe\xe5\xaa', 'chip_freq': 50000000}	92fee5aa	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	100000000	PASS	{'seed': b'S\xbf\x90\x8f', 'chip_freq': 100000000}	53bf908f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	150000000	PASS	{'seed': b'?d\xcb\t', 'chip_freq': 150000000}	3f64cb09	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	200000000	PASS	{'seed': b'&t\xab\xec', 'chip_freq': 200000000}	2674abec	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	250000000	PASS	{'seed': b'q\xbe$=', 'chip_freq': 250000000}	71be243d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	300000000	PASS	{'seed': b'{\xe4\xc11', 'chip_freq': 300000000}	7be4c131	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	350000000	PASS	{'seed': b')5\x06a', 'chip_freq': 350000000}	29350661	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	400000000	PASS	{'seed': b'\xa6W\xc82', 'chip_freq': 400000000}	a657c832	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	450000000	PASS	{'seed': b'\xf7\xcc\xf3\xc1', 'chip_freq': 450000000}	f7ccf3c1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	500000000	PASS	{'seed': b'\x18\xff\xd3n', 'chip_freq': 500000000}	18ffd36e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	550000000	PASS	{'seed': b'\xedx\xe3M', 'chip_freq': 550000000}	ed78e34d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	600000000	PASS	{'seed': b'\xe4Q\xf8\xf8', 'chip_freq': 600000000}	e451f8f8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	650000000	PASS	{'seed': b'9\x8dx\xc8', 'chip_freq': 650000000}	398d78c8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	700000000	PASS	{'seed': b'\x95\rm\xa5', 'chip_freq': 700000000}	950d6da5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	750000000	PASS	{'seed': b'`$a\x10', 'chip_freq': 750000000}	60246110	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	800000000	PASS	{'seed': b'\x9f\xa3?}', 'chip_freq': 800000000}	9fa33f7d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	850000000	PASS	{'seed': b'\xedt\x13\x97', 'chip_freq': 850000000}	ed741397	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	900000000	PASS	{'seed': b'U\xbe\x139', 'chip_freq': 900000000}	55be1339	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	950000000	PASS	{'seed': b'\xdeg\xe7B', 'chip_freq': 950000000}	de67e742	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1000000000	PASS	{'seed': b'\xa6r\x9cA', 'chip_freq': 1000000000}	a6729c41	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1050000000	PASS	{'seed': b'~\x1c\x8a\xed', 'chip_freq': 1050000000}	7e1c8aed	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1100000000	PASS	{'seed': b'.>\x88\x17', 'chip_freq': 1100000000}	2e3e8817	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 682587, 'vector_perf': 0.7680896520614624}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1150000000	PASS	{'seed': b'\xe1\xa1\xa0\x90', 'chip_freq': 1150000000}	e1a1a090	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 909756, 'vector_perf': 0.5762951970100403}
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1200000000	FAIL_NO_ETB	{'seed': b'5\x0e\xa3\x0f'}	350ea30f	None
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	1.00	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	1.05	50000000	PASS	{'seed': b'\xadP\xe9\xec', 'chip_freq': 50000000}	ad50e9ec	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	100000000	PASS	{'seed': b'\\]?\xf0', 'chip_freq': 100000000}	5c5d3ff0	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	150000000	PASS	{'seed': b'\x08N\x87w', 'chip_freq': 150000000}	084e8777	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	200000000	PASS	{'seed': b'H\xf1\xe2\xed', 'chip_freq': 200000000}	48f1e2ed	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	250000000	PASS	{'seed': b'\x0e\x89W|', 'chip_freq': 250000000}	0e89577c	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	300000000	PASS	{'seed': b'xa\x94_', 'chip_freq': 300000000}	7861945f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	350000000	PASS	{'seed': b'R\xb1\xcf\xbd', 'chip_freq': 350000000}	52b1cfbd	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	400000000	PASS	{'seed': b'\x98e[c', 'chip_freq': 400000000}	98655b63	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	450000000	PASS	{'seed': b'p\xeex\x8a', 'chip_freq': 450000000}	70ee788a	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	500000000	PASS	{'seed': b'\xda\x8f\x1c\x86', 'chip_freq': 500000000}	da8f1c86	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	550000000	PASS	{'seed': b'\xbfZ\x93\x8e', 'chip_freq': 550000000}	bf5a938e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	600000000	PASS	{'seed': b'\xb14\xc9\x93', 'chip_freq': 600000000}	b134c993	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	650000000	PASS	{'seed': b'\xfb\xfb<\xa1', 'chip_freq': 650000000}	fbfb3ca1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	700000000	PASS	{'seed': b'\xee\xbd\x80\xaf', 'chip_freq': 700000000}	eebd80af	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	750000000	PASS	{'seed': b'fn\xbb\xef', 'chip_freq': 750000000}	666ebbef	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	800000000	PASS	{'seed': b'\x9a\x18m\x90', 'chip_freq': 800000000}	9a186d90	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	850000000	PASS	{'seed': b'5\r\xbdo', 'chip_freq': 850000000}	350dbd6f	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	900000000	PASS	{'seed': b',k\xf8=', 'chip_freq': 900000000}	2c6bf83d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	950000000	PASS	{'seed': b'$2\xd54', 'chip_freq': 950000000}	2432d534	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1000000000	PASS	{'seed': b'\xd4S\xdb\xb7', 'chip_freq': 1000000000}	d453dbb7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1050000000	PASS	{'seed': b'h\xcep\x96', 'chip_freq': 1050000000}	68ce7096	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1100000000	PASS	{'seed': b'\xf6%\xb0\xc5', 'chip_freq': 1100000000}	f625b0c5	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1150000000	PASS	{'seed': b'\xd6\x17\\}', 'chip_freq': 1150000000}	d6175c7d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 682587, 'vector_perf': 0.7680896520614624}
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1200000000	FAIL_NO_ETB	{'seed': b'\xb8\x82"\x06'}	b8822206	None
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	1.05	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+saturn_bmarks_shmoo	vec_igemm	1	1.10	50000000	PASS	{'seed': b'}7_[', 'chip_freq': 50000000}	7d375f5b	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	100000000	PASS	{'seed': b'\xef\x1f\xc8\xe4', 'chip_freq': 100000000}	ef1fc8e4	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	150000000	PASS	{'seed': b'2<\xbfE', 'chip_freq': 150000000}	323cbf45	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	200000000	PASS	{'seed': b'{Np\x02', 'chip_freq': 200000000}	7b4e7002	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	250000000	PASS	{'seed': b'"\x9e\xdc\x84', 'chip_freq': 250000000}	229edc84	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	300000000	PASS	{'seed': b'\xaaok\xa4', 'chip_freq': 300000000}	aa6f6ba4	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	350000000	PASS	{'seed': b'\x1f\xbeD\x91', 'chip_freq': 350000000}	1fbe4491	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	400000000	PASS	{'seed': b'\x90\xbd#\x00', 'chip_freq': 400000000}	90bd2300	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	450000000	PASS	{'seed': b' \xa3}z', 'chip_freq': 450000000}	20a37d7a	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	500000000	PASS	{'seed': b'\x9bKL\x1d', 'chip_freq': 500000000}	9b4b4c1d	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	550000000	PASS	{'seed': b'\xbc[\x01\xc6', 'chip_freq': 550000000}	bc5b01c6	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	600000000	PASS	{'seed': b'O\xf8\xa0\t', 'chip_freq': 600000000}	4ff8a009	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	650000000	PASS	{'seed': b'J\x16&\x92', 'chip_freq': 650000000}	4a162692	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	700000000	PASS	{'seed': b'c&t\xd7', 'chip_freq': 700000000}	632674d7	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	750000000	PASS	{'seed': b'\x9a\xc2\xf6G', 'chip_freq': 750000000}	9ac2f647	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606858, 'vector_perf': 0.8639385104179382}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	800000000	PASS	{'seed': b'\xc4\xdc\xde\xdc', 'chip_freq': 800000000}	c4dcdedc	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	850000000	PASS	{'seed': b'!K\xe8\xde', 'chip_freq': 850000000}	214be8de	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606817, 'vector_perf': 0.8639968633651733}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	900000000	PASS	{'seed': b'DKQ\xb6', 'chip_freq': 900000000}	444b51b6	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	950000000	PASS	{'seed': b'|5\x86\xc1', 'chip_freq': 950000000}	7c3586c1	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1000000000	PASS	{'seed': b'w~\xfc\xd8', 'chip_freq': 1000000000}	777efcd8	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1050000000	PASS	{'seed': b'\x17 |\x1b', 'chip_freq': 1050000000}	17207c1b	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1100000000	PASS	{'seed': b'v\t\xf9\x1e', 'chip_freq': 1100000000}	7609f91e	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606833, 'vector_perf': 0.8639740943908691}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1150000000	PASS	{'seed': b' EHL', 'chip_freq': 1150000000}	2045484c	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 606857, 'vector_perf': 0.8639399409294128}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1200000000	PASS	{'seed': b'\xe8Yod', 'chip_freq': 1200000000}	e8596f64	{'naive_cycles': 0, 'naive_perf': 0.0, 'vector_cycles': 682587, 'vector_perf': 0.7680896520614624}
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1250000000	FAIL_NO_ETB	{'seed': b'\xb8\xbb4\xe6'}	b8bb34e6	None
+saturn_bmarks_shmoo	vec_igemm	1	1.10	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None

@@ -1,0 +1,8 @@
+Suite Name	Test Name	Test ID	Voltage	Frequency	Status	Context	Host Payload	Compare Check Data
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1000000000	PASS	{'steps': 12, 'chip_freq': 1000000000}	0c000000	3 steps in 36759205 cycles [81.61221114548043 tok/sec]
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1050000000	PASS	{'steps': 12, 'chip_freq': 1050000000}	0c000000	3 steps in 37322387 cycles [84.39974645780292 tok/sec]
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1100000000	PASS	{'steps': 12, 'chip_freq': 1100000000}	0c000000	3 steps in 38604870 cycles [85.48144314434941 tok/sec]
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1150000000	FAIL_NO_BEL	{'steps': 12}	0c000000	None
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 12 Steps	1	1.10	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None

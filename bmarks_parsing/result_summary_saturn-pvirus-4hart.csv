@@ -1,0 +1,6 @@
+Type,Filename,Voltage (V),Frequency (MHz),Cycles (M),Avg Current (A),Avg Power (mW),Time (s),Energy (mJ)
+High Efficiency (best),test_0_0.55v_50MHz.csv,0.55,50.0,100.0,0.01950688888888889,10.728788888888891,2.0,21.457577777777782
+High Efficiency (context),test_0_0.55v_100MHz.csv,0.55,100.0,200.0,0.0325290625,17.890984375,2.0,35.78196875
+High Performance (best),test_0_1.00v_600MHz.csv,1.0,600.0,1200.0,0.32228975,322.28974999999997,2.0,644.5794999999999
+High Performance (context),test_0_1.00v_650MHz.csv,1.0,650.0,1300.0,0.352285125,352.285125,2.0,704.57025
+High Performance (context),test_0_1.00v_700MHz.csv,1.0,700.0,1400.0,0.374689875,374.68987500000003,2.0,749.3797500000001

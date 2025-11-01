@@ -1,0 +1,3 @@
+Type,Filename,Voltage (V),Frequency (MHz),Cycles (M),Avg Current (A),Avg Power (mW),Time (s),Energy (mJ)
+High Efficiency (best),test_0_1.10v_1250MHz.csv,1.1,1250.0,2500.0,0.764399375,840.8393125000001,2.0,1681.6786250000002
+High Performance (best),test_0_1.10v_1250MHz.csv,1.1,1250.0,2500.0,0.764399375,840.8393125000001,2.0,1681.6786250000002

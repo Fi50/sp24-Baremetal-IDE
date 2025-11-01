@@ -1,0 +1,313 @@
+Suite Name	Test Name	Test ID	Voltage	Frequency	Status	Context	Host Payload	Compare Check Data
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11858066 cycles [8.43307837888573 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219663 cycles [15.128978703920062 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546835 cycles [20.623042744349544 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	200000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	350000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	400000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	450000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.55	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11858123 cycles [8.433037842498345 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219894 cycles [15.128714345213359 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546383 cycles [20.623683564498474 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898115 cycles [25.16021553498638 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17464848 cycles [28.628935104387967 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	300000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	350000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	400000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	450000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.60	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857871 cycles [8.433217058947596 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219774 cycles [15.12885167325856 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546353 cycles [20.62372609821857 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15900136 cycles [25.157017524881546 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17466576 cycles [28.626102791983957 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988916 cycles [31.59738028226572 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20121245 cycles [34.78909977985955 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21403043 cycles [37.37786257776523 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	450000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	500000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	550000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	600000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.65	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857682 cycles [8.433351476283477 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219776 cycles [15.128849384437377 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14545800 cycles [20.62451016788351 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898995 cycles [25.15882293188972 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17464424 cycles [28.62963015556654 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988166 cycles [31.598628324610186 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20104757 cycles [34.81763047422061 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21404282 cycles [37.375698937250036 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036840 cycles [39.06785826528291 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24389959 cycles [41.00047892659434 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25818138 cycles [42.605706112501224 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	600000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	650000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	700000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.70	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857687 cycles [8.43334792021412 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219165 cycles [15.129548651522242 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546608 cycles [20.62336456718982 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15897454 cycles [25.161261671208486 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17464999 cycles [28.628687582518616 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988102 cycles [31.598734828789105 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20120506 cycles [34.79037753821897 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21404122 cycles [37.375978327912726 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036313 cycles [39.068752017738255 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24387011 cycles [41.00543522943423 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25816543 cycles [42.608338382098644 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27170283 cycles [44.16589992824145 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28568826 cycles [45.504144972565555 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	700000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	750000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	800000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	850000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.75	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857567 cycles [8.4334332667064 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13218996 cycles [15.129742077234914 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546535 cycles [20.623468063012943 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15897434 cycles [25.161293325702754 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17465804 cycles [28.627368084515318 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18942594 cycles [31.674648150089688 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20119283 cycles [34.792492356710724 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21403041 cycles [37.37786607052708 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036438 cycles [39.06854002341855 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24388512 cycles [41.00291153474226 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25818415 cycles [42.60524900540951 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27166370 cycles [44.172261513039835 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28568501 cycles [45.50466263525693 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30168714 cycles [46.40569034530275 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31518434 cycles [47.59119694842707 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 33050810 cycles [48.41031127527585 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	850000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	900000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	950000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.80	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857736 cycles [8.433313070893128 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219616 cycles [15.129032492320503 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14655703 cycles [20.4698471304993 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898693 cycles [25.15930083057771 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17463449 cycles [28.63122857346221 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988588 cycles [31.597926080654336 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20121705 cycles [34.78830447022258 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21403114 cycles [37.37773858514233 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036393 cycles [39.06861634110861 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24386064 cycles [41.00702762036547 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25818686 cycles [42.604801809046364 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27167822 cycles [44.16990070091007 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28564732 cycles [45.51066679008226 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30169620 cycles [46.40429677271374 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31517164 cycles [47.59311465968194 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32892247 cycles [48.64368189865532 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34074809 cycles [49.89022829152175 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35450465 cycles [50.77507445953107 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	950000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1000000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.85	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857752 cycles [8.433301691585386 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219664 cycles [15.128977559490165 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546636 cycles [20.6233248704374 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898917 cycles [25.158946360937666 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17464498 cycles [28.629508847033566 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988318 cycles [31.598375380062624 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20120167 cycles [34.79096371317395 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21402729 cycles [37.37841094937005 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036303 cycles [39.06876897738322 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24388560 cycles [41.00283083544088 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25816602 cycles [42.60824100708528 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27170147 cycles [44.166121000375895 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28563755 cycles [45.51222344541185 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30169695 cycles [46.404181414495575 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31517236 cycles [47.5930059349113 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32891289 cycles [48.6450987068339 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34103538 cycles [49.848200500487664 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35454697 cycles [50.769013764241166 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	950000000	PASS	{'steps': 3, 'chip_freq': 950000000}	03000000	2 steps in 37248275 cycles [51.00907357454808 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1000000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1050000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.90	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857648 cycles [8.433375657634635 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219836 cycles [15.128780720123912 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14545905 cycles [20.624361289311324 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898313 cycles [25.15990218584827 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17464548 cycles [28.629426882390543 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18987530 cycles [31.5996867417721 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20121249 cycles [34.78909286396684 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21403690 cycles [37.37673270356653 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036258 cycles [39.06884529596777 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24387663 cycles [41.00433895613532 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25816873 cycles [42.60779374791052 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27168238 cycles [44.169224371488504 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28809713 cycles [45.12367061761427 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 29943873 cycles [46.754138985294254 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31518582 cycles [47.590973477169754 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32892881 cycles [48.6427443068912 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34074812 cycles [49.890223899107646 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35450290 cycles [50.7753251101754 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	950000000	PASS	{'steps': 3, 'chip_freq': 950000000}	03000000	2 steps in 37251788 cycles [51.00426320476214 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1000000000	PASS	{'steps': 3, 'chip_freq': 1000000000}	03000000	2 steps in 38125829 cycles [52.45787573563319 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1050000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1100000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	0.95	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857636 cycles [8.433384192262269 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13218968 cycles [15.129774124576139 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546804 cycles [20.623086693132045 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15897855 cycles [25.160627015405538 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17465278 cycles [28.62823025204637 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18989185 cycles [31.596932675099012 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20118339 cycles [34.794124902657224 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21402728 cycles [37.37841269580215 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036348 cycles [39.06869265909683 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24387561 cycles [41.00451045514556 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25816875 cycles [42.60779044713971 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27167393 cycles [44.170598187319634 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28568175 cycles [45.50518190258915 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30169906 cycles [46.403856876451655 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31517166 cycles [47.59311163954272 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32892889 cycles [48.642732476311224 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34074809 cycles [49.89022829152175 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35450464 cycles [50.77507589181344 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	950000000	PASS	{'steps': 3, 'chip_freq': 950000000}	03000000	2 steps in 37345643 cycles [50.87608211753109 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1000000000	PASS	{'steps': 3, 'chip_freq': 1000000000}	03000000	2 steps in 38126135 cycles [52.45745470921718 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1050000000	PASS	{'steps': 3, 'chip_freq': 1050000000}	03000000	2 steps in 39729808 cycles [52.85703872518085 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1100000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1150000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.00	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857747 cycles [8.433305247615756 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13218957 cycles [15.129786714640193 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14545903 cycles [20.62436412507357 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15899175 cycles [25.15853810024734 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17465253 cycles [28.6282712308834 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988168 cycles [31.598624996366155 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20119809 cycles [34.79158276303716 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21398730 cycles [37.38539623613177 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23036393 cycles [39.06861634110861 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24749854 cycles [40.40427874847261 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25814012 cycles [42.61251602424296 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27167764 cycles [44.169994998484235 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28565185 cycles [45.50994506074439 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30169204 cycles [46.40493663671073 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31517242 cycles [47.59299687453617 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32892168 cycles [48.643798730445496 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34075064 cycles [49.8898549390839 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35450377 cycles [50.77520050068861 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	950000000	PASS	{'steps': 3, 'chip_freq': 950000000}	03000000	2 steps in 37251793 cycles [51.00425635888185 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1000000000	PASS	{'steps': 3, 'chip_freq': 1000000000}	03000000	2 steps in 38125530 cycles [52.458287137254224 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1050000000	PASS	{'steps': 3, 'chip_freq': 1050000000}	03000000	2 steps in 39732327 cycles [52.85368762821266 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1100000000	PASS	{'steps': 3, 'chip_freq': 1100000000}	03000000	2 steps in 41103272 cycles [53.52371947420634 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1150000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.05	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	50000000	PASS	{'steps': 3, 'chip_freq': 50000000}	03000000	2 steps in 11857653 cycles [8.433372101544885 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	100000000	PASS	{'steps': 3, 'chip_freq': 100000000}	03000000	2 steps in 13219016 cycles [15.129719186360013 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	150000000	PASS	{'steps': 3, 'chip_freq': 150000000}	03000000	2 steps in 14546804 cycles [20.623086693132045 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	200000000	PASS	{'steps': 3, 'chip_freq': 200000000}	03000000	2 steps in 15898134 cycles [25.16018546579114 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	250000000	PASS	{'steps': 3, 'chip_freq': 250000000}	03000000	2 steps in 17463879 cycles [28.630523608185786 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	300000000	PASS	{'steps': 3, 'chip_freq': 300000000}	03000000	2 steps in 18988617 cycles [31.597877823329625 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	350000000	PASS	{'steps': 3, 'chip_freq': 350000000}	03000000	2 steps in 20118341 cycles [34.79412144371149 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	400000000	PASS	{'steps': 3, 'chip_freq': 400000000}	03000000	2 steps in 21406000 cycles [37.37269924320284 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	450000000	PASS	{'steps': 3, 'chip_freq': 450000000}	03000000	2 steps in 23099178 cycles [38.96242541617715 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	500000000	PASS	{'steps': 3, 'chip_freq': 500000000}	03000000	2 steps in 24387664 cycles [41.00433727477958 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	550000000	PASS	{'steps': 3, 'chip_freq': 550000000}	03000000	2 steps in 25813907 cycles [42.61268935384326 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	600000000	PASS	{'steps': 3, 'chip_freq': 600000000}	03000000	2 steps in 27168605 cycles [44.168627723064915 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	650000000	PASS	{'steps': 3, 'chip_freq': 650000000}	03000000	2 steps in 28568370 cycles [45.50487129647229 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	700000000	PASS	{'steps': 3, 'chip_freq': 700000000}	03000000	2 steps in 30170116 cycles [46.403533881009935 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	750000000	PASS	{'steps': 3, 'chip_freq': 750000000}	03000000	2 steps in 31518819 cycles [47.59061562554105 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	800000000	PASS	{'steps': 3, 'chip_freq': 800000000}	03000000	2 steps in 32892726 cycles [48.64297352551443 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	850000000	PASS	{'steps': 3, 'chip_freq': 850000000}	03000000	2 steps in 34074896 cycles [49.8901009118267 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	900000000	PASS	{'steps': 3, 'chip_freq': 900000000}	03000000	2 steps in 35450470 cycles [50.77506729812045 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	950000000	PASS	{'steps': 3, 'chip_freq': 950000000}	03000000	2 steps in 37251696 cycles [51.004389169287755 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1000000000	PASS	{'steps': 3, 'chip_freq': 1000000000}	03000000	2 steps in 38347411 cycles [52.154759548173935 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1050000000	PASS	{'steps': 3, 'chip_freq': 1050000000}	03000000	2 steps in 39739671 cycles [52.843920122036245 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1100000000	PASS	{'steps': 3, 'chip_freq': 1100000000}	03000000	2 steps in 41103492 cycles [53.523432996885035 tok/sec]
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1150000000	FAIL_NO_BEL	{'steps': 3}	03000000	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1200000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1250000000	SKIP_MAX_FREQ_FAIL	None	None	None
+llama_int8	Int8 Llama2 Inference - 3 Steps	1	1.10	1300000000	SKIP_MAX_FREQ_FAIL	None	None	None
